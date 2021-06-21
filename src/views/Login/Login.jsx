@@ -16,7 +16,9 @@ class Login extends Component {
           <div className="title">
               <h1>Iniciar Sesión</h1>
           </div>
-          <Form>
+          <Form
+            autoComplete="off"
+          >
             <div className="email">
               <Form.Item 
                 label="Ingrese su email"

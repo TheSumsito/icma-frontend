@@ -43,6 +43,9 @@ select {
     text-align-last: center;
     cursor: pointer;
 }
+input {
+    text-align: center;
+}
 
 .container {
     display: grid;
