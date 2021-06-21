@@ -6,15 +6,17 @@ import {
 } from "react-router-dom";
 
 //* Views
-import Login from './views/Login.jsx';
+import Login from './views/Login/Login.jsx';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route path='/' component={Login} />
-        </Switch>
-      </Router>
+      <div className="container">
+        <Router>
+          <Switch>
+            <Route path='/' component={Login} />
+          </Switch>
+        </Router>
+      </div>
     )
   }
 }
